@@ -1,0 +1,36 @@
+{
+	"name": "Sketch Server",
+	"description": "Creates a local web server for Sketch documents.",
+	"author": "Matt Curtis",
+	"homepage": "http://github.com/matt-curtis/SketchTemplatePlugin",
+	"version": 1.0,
+
+	"identifier": "com.matt-curtis.sketch.sketch-server",
+	"updateURL": "http://raw.github.com/matt-curtis/SketchTemplatePlugin/manifest.json",
+	"compatibleVersion": 3,
+	"bundleVersion": 1,
+
+	"commands": [
+			{
+				"name": "Start Server",
+				"identifier": "start-server-command",
+				"shortcut": "",
+				"script": "dynamicCommands.js",
+				"handler": "command_startServer"
+			},
+			{
+				"name": "Start Server on Port...",
+				"identifier": "start-server-on-port-command",
+				"shortcut": "",
+				"script": "dynamicCommands.js",
+				"handler": "command_startServerOnUserPort"
+			}
+	],
+
+	"menu": [
+		{
+			"isRoot": true,
+			"items": [ "start-server-command", "start-server-on-port-command" ]
+		}
+	]
+}
