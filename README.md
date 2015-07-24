@@ -28,7 +28,7 @@ You can specify both page, artboard, and what kind of content the server returns
 
      http://127.0.0.1:8888/?artboard=2&page=4
      
-Artboard & Page numbers are zero-based, so that will give you the 1st artboard on page 3 of your document.
+Artboard & Page numbers are zero-based, so that will give you the 1st artboard on page 3 of your document. Omitting the `page` parameter will default to the current page open in that document.
 
 By default, Sketch Server returns an HTML page containing your image.
 If you'd like just the image (png), you can add an additional query parameter:
