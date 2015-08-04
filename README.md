@@ -1,4 +1,4 @@
-# Sketch-Server
+# Sketch Server
 
 Sketch Server is plugin for Sketch that creates a local web server for your Sketch Documents.
 
