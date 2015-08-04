@@ -1,5 +1,3 @@
-**Notice: Peliminary evidence suggests this [may not work on the App Store (Sandboxed) version of Sketch](https://github.com/matt-curtis/Sketch-Server/issues/1). I'm looking into a fix as we speak.**
-
 # Sketch-Server
 
 Sketch Server is plugin for Sketch that creates a local web server for your Sketch Documents.
