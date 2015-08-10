@@ -2,6 +2,9 @@
 
 Sketch Server is plugin for Sketch that creates a local web server for your Sketch Documents.
 
+[Changelog](/CHANGELOG.md)  |
+------------- |
+
 ## How to use it ##
 
 Sketch Server adds two items to the Plugins Menu:
