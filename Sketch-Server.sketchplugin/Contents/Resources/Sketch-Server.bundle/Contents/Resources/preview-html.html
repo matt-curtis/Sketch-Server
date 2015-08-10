@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Sketch Server Preview</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		
 		<style>
 			body, html { padding: 0; margin: 0; }
@@ -13,11 +13,8 @@
 		<script type="text/javascript">
 			var query = window.location.search;
 
-			if(query == "") query = "?serveImage=1";
-			else query = query+"&serveImage=1";
-
 			var imageElement = document.createElement("img");
-			imageElement.src = "/"+query;
+			imageElement.src = "/image"+query;
 
 			document.body.appendChild(imageElement);
 		</script>
