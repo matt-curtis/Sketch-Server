@@ -5,18 +5,49 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		
 		<style>
-			body, html { padding: 0; margin: 0; }
+			html {
+				height: 100%;
+			}
+
+			body {
+				margin: 0; height: 100%;
+
+				cursor: pointer;
+			}
+			
+			#image {
+				min-width: 100%;
+				min-height: 100%;
+
+				background-repeat: no-repeat;
+				background-position: center;
+			}
 		</style>
+
+		<script type="text/javascript">
+			window.addEventListener("DOMContentLoaded", function(){
+				var body = document.body;
+
+				//	Reload on tap
+
+				body.addEventListener("click", function(){
+					window.location.reload();
+				});
+
+				//	Set & Size Image
+
+				var size = { width: {{width}}, height: {{height}} }
+			
+				var imageElement = document.getElementById("image");
+				var query = window.location.search;
+				
+				imageElement.style.width = size.width+"px";
+				imageElement.style.height = size.height+"px";
+				imageElement.style.backgroundSize = size.width+"px "+size.height+"px";
+				imageElement.style.backgroundImage = "url('/image"+query+"')";
+			}, false);
+		</script>
 	</head>
 
-	<body>
-		<script type="text/javascript">
-			var query = window.location.search;
-
-			var imageElement = document.createElement("img");
-			imageElement.src = "/image"+query;
-
-			document.body.appendChild(imageElement);
-		</script>
-	</body>
+	<body><div id="image"/></body>
 </html>
