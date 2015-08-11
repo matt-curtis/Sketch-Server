@@ -2,6 +2,6 @@
 
 ## 1.5 (Aug. 10, 2015)
 
-- Rewrote portions of code
+- Rewrote portions of code to be more efficient
 - Added ability to scale artboards
 - Changed means by which PNG is served
