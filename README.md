@@ -42,4 +42,4 @@ If you'd like just the image (png), you can get it using the `/image` path:
 
      http://127.0.0.1:8888/image?artboard=2&page=4
 
-There's also a `retina` boolean parameter, which only applies to HTML output. It will downsize your image to the size of the artboard. Useful for previewing on retina devices.
+There's also a `retina` boolean parameter, which only applies to HTML output. It will downsize your image to the size of the artboard. Useful for [previewing on retina devices.](https://itunes.apple.com/us/app/id933580264)
