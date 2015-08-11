@@ -24,7 +24,7 @@ Sketch Server adds two items to the Plugins Menu:
   Starts a local server on a port specfied by you.
   
   
-Each document can have it's own port, so you will need to start a server for individual documents.
+Each document can have its own port, so you will need to start a server for individual documents.
 After you've created a server instance for a given document, you can visit it using the URL Sketch Server gives you.
 
 ![](https://i.imgur.com/gEhh23W.png)
