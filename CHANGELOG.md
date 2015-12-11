@@ -1,6 +1,10 @@
 # Change Log
 
 
+## 1.6.1 (Dec. 11, 2015)
+
+- Fixed bug caused by latest Sketch Update (3.4.4) that caused plugin to not work.
+
 ## 1.6 (Aug. 11, 2015)
 
 - Changed default HTML output; output image is now vertically and horizontally centered when smaller than viewport.

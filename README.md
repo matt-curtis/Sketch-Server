@@ -2,7 +2,7 @@
 [![forthebadge](http://forthebadge.com/images/badges/gluten-free.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/oooo-kill-em.svg)](http://forthebadge.com)
 
-# Sketch Server 1.6
+# Sketch Server 1.6.1
 
 Sketch Server is plugin for Sketch that creates a local web server for your Sketch Documents.
 
@@ -21,7 +21,7 @@ Sketch Server adds two items to the Plugins Menu:
   
 - Start Server on Port...
 
-  Starts a local server on a port specfied by you.
+  Starts a local server on a port specified by you.
   
   
 Each document can have its own port, so you will need to start a server for individual documents.
