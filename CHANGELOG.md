@@ -1,5 +1,9 @@
-# Change Log
+# Changelog
 
+
+## 1.6.2 (Jan. 27, 2016)
+
+- Fixed bug caused by latest Sketch Update (3.5) that caused plugin to not work.
 
 ## 1.6.1 (Dec. 11, 2015)
 
