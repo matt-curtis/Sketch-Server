@@ -2,7 +2,7 @@
 [![forthebadge](http://forthebadge.com/images/badges/gluten-free.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/oooo-kill-em.svg)](http://forthebadge.com)
 
-# Sketch Server 1.6.2
+# Sketch Server 1.6.3
 
 Sketch Server is plugin for Sketch that creates a local web server for your Sketch Documents.
 

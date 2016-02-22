@@ -1,6 +1,10 @@
 # Changelog
 
 
+## 1.6.3 (Feb. 22, 2016)
+
+- Updated to latest version of Sketch Plugin Framework, which should improve stability
+
 ## 1.6.2 (Jan. 27, 2016)
 
 - Fixed bug caused by latest Sketch Update (3.5) that caused plugin to not work.

@@ -2,11 +2,11 @@
 	"name": "Sketch Server",
 	"description": "Creates a local web server for Sketch documents.",
 	"author": "Matt Curtis",
-	"homepage": "http://github.com/matt-curtis/SketchTemplatePlugin",
-	"version": "1.6.2",
+	"homepage": "https://github.com/matt-curtis/Sketch-Server",
+	"version": "1.6.3",
 
 	"identifier": "com.matt-curtis.sketch.sketch-server",
-	"updateURL": "http://raw.github.com/matt-curtis/SketchTemplatePlugin/manifest.json",
+	"updateURL": "https://raw.githubusercontent.com/matt-curtis/Sketch-Server/master/Sketch-Server.sketchplugin/Contents/Sketch/manifest.json",
 	"compatibleVersion": 3,
 	"bundleVersion": 1,
 
